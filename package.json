@@ -1,0 +1,30 @@
+{
+  "name": "sitezinhonextjs",
+  "version": "1.0.0",
+  "description": "sitezinhonextjs =D",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavo-sm/sitezinhonextjs.git"
+  },
+  "keywords": [
+    "nextjs",
+    "reactjs",
+    "js"
+  ],
+  "author": "gustavo-sm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gustavo-sm/sitezinhonextjs/issues"
+  },
+  "homepage": "https://github.com/gustavo-sm/sitezinhonextjs#readme",
+  "dependencies": {
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
