@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function Home() {
-    const [counter, updateCounter] = useState(5);
+    const [counter, updateCounter] = useState(10);
 
     useEffect(()=>{
 
