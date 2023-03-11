@@ -5,9 +5,8 @@ function Home() {
 
     useEffect(()=>{
 
-        let curr_counter = counter;
         setInterval(() => {
-            updateCounter(curr_counter--);
+            updateCounter(counter-1);
         }, 1000);
     
         setTimeout(()=>{
@@ -15,7 +14,7 @@ function Home() {
         }, 10000);
 
        
-    },[]);
+    },[counter]);
     
     return (
         <>
