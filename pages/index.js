@@ -8,7 +8,7 @@ function Home() {
         let curr_counter = counter;
         setInterval(() => {
             updateCounter(curr_counter--);
-        }, 900);
+        }, 1000);
     
         setTimeout(()=>{
             window.location.href = 'https://www.youtube.com/watch?v=oCEZC9w5cMc'
