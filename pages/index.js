@@ -10,7 +10,7 @@ function Home() {
         }, 1000);
     
         setTimeout(()=>{
-            window.location.href = 'https://www.youtube.com/watch?v=oCEZC9w5cMc'
+            window.location.href = 'https://youtu.be/oCEZC9w5cMc?t=33'
         }, 10000);
 
        
