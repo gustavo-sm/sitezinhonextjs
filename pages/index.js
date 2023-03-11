@@ -12,7 +12,7 @@ function Home() {
     
         setTimeout(()=>{
             window.location.href = 'https://www.youtube.com/watch?v=oCEZC9w5cMc'
-        }, 5500);
+        }, 10000);
 
        
     },[]);
