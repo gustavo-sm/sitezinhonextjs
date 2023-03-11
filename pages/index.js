@@ -20,7 +20,7 @@ function Home() {
     return (
         <>
         
-            <h1 style={{ color: "red" }}>Cuidado mãe!</h1>    
+            <h1 style={{ color: "red" }}>Cuidado mamãe!</h1>    
             <h3>O sistema detectou altos niveis de estresse no seu trabalho! <br />Favor considerar a saúde em primeiro lugar</h3>
             <p>{counter}</p>
         </>);
