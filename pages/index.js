@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import style from "../styles/globals.module.css";
 
 function Home() {
     const [counter, updateCounter] = useState(10);
@@ -18,10 +19,9 @@ function Home() {
     
     return (
         <>
-        
-            <h1 style={{ color: "red" }}>Cuidado mamãe!</h1>    
-            <h3>O sistema detectou altos niveis de estresse no seu trabalho! <br />Favor considerar a saúde em primeiro lugar</h3>
-            <p>{counter}</p>
+            <h1 className={style.heading} style = {{color:"red"}}>Cuidado mamãe!</h1>    
+            <h3 className={style.parag}>O sistema detectou altos niveis de estresse no seu trabalho! <br />Favor considerar a saúde em primeiro lugar</h3>
+            <p className={style.parag}>{counter}</p>
         </>);
 
 }
