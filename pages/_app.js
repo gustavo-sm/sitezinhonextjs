@@ -1,4 +1,4 @@
-import "../styles/body.css";
+import "../assets/styles/body.css";
 import Home from ".";
 
 function App() {

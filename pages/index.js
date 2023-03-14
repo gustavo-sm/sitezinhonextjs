@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import style from "../styles/globals.module.css";
+import style from "../assets/styles/globals.module.css";
 
 function Home() {
     const [counter, updateCounter] = useState(10);
