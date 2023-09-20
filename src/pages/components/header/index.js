@@ -6,7 +6,7 @@ function Header() {
     return (
         <div>
             <h1 className={styles.heading}>Em construção!</h1>
-            <p className={styles.parag}>Depois de várias pesquisas no <LiaStackOverflow/>, espero logo terminar a V1 😅 </p>
+            <p className={styles.parag}>Depois de várias pesquisas no <LiaStackOverflow title="StackOverflow"/>, espero logo terminar a V1 😅 </p>
         </div>
 
     );
