@@ -1,4 +1,4 @@
-import "../public/fonts/styles.css"
+import "../public/styles.css"
 import Home from ".";
 
 function App() {

@@ -1,18 +1,23 @@
 @font-face {
     font-family: 'Oxygen';
-    src: url('./Oxygen/Oxygen-Light.ttf');
+    src: url('./fonts/Oxygen/Oxygen-Light.ttf');
     font-style: lighter;
 }
 
 @font-face {
     font-family: 'Oxygen';
-    src: url('./Oxygen/Oxygen-Regular.ttf');
+    src: url('./fonts/Oxygen/Oxygen-Regular.ttf');
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Oxygen';
-    src: url('./Oxygen/Oxygen-Bold.ttf');
+    src: url('./fonts/Oxygen/Oxygen-Bold.ttf');
     font-weight: bold;
 
+}
+
+body {
+    overflow: hidden;
+    margin: 0 auto;
 }
