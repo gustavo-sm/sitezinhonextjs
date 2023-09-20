@@ -5,9 +5,8 @@ import {LiaStackOverflow} from "react-icons/lia"
 function Header() {
     return (
         <div>
-            <h1 className={styles.heading}>Em construção! <br/>
-                Depois de várias pesquisas no <LiaStackOverflow/>, espero logo terminar a V1 😅 
-            </h1>
+            <h1 className={styles.heading}>Em construção!</h1>
+            <p className={styles.parag}>Depois de várias pesquisas no <LiaStackOverflow/>, espero logo terminar a V1 😅 </p>
         </div>
 
     );
