@@ -5,7 +5,7 @@ function Header() {
     return (
         <>
             <h1 className={styles.heading}>Em construção, depois de várias pesquisas no stackoverflow espero terminar a V1 😅 </h1>
-            <a className={styles.url} href="linkedin.com/gustavo-sm" target="_blank"><AiFillLinkedin/></a>
+            <a className={styles.url} href="https://linkedin.com/in/gustavo-sm" target="_blank"><AiFillLinkedin/></a>
         </>
 
     );
