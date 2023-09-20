@@ -6,16 +6,12 @@ import ProfileBar from './components/profilebar';
 function Home() {
     
     return (
-        <>
-  
-            <div className={style.centered_content}>
-                <ul>
-                    <Header/>
-                    <ProfileBar/>
-                </ul>
-            </div>
-
-        </>
+        <div className={style.centered_content}>
+            <ul>
+                <Header/>
+                <ProfileBar/>
+            </ul>
+        </div>
     );
 
 }
