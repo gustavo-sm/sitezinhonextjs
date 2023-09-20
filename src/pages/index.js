@@ -7,7 +7,7 @@ function Home() {
     
     return (
         <div className={style.centered_content}>
-            <ul>
+            <ul id={style.content_list}>
                 <Header/>
                 <ProfileBar/>
             </ul>
