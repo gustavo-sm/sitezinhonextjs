@@ -1,0 +1,9 @@
+.center_bar {
+    display: grid;
+    justify-items: center;
+}
+
+#linkedin_icon {
+    color: #0072b1;
+    text-decoration: none;
+}
