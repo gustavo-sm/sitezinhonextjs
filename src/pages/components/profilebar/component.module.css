@@ -4,6 +4,34 @@
 }
 
 #linkedin_icon {
+    display: inline;
     color: #0072b1;
     text-decoration: none;
+}
+
+#github_icon {
+    display: inline;
+    color: #333;
+    text-decoration: none;
+}
+.icons_spacing {
+    padding: 12px 0 0 10px;
+}
+
+.parag {
+    font-family: "Oxygen";
+    color: #202124  ;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.parag_smaller {
+    font-family: "Oxygen";
+    color: #202124  ;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+#inner_div {
+    display: flex;
 }
