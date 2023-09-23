@@ -6,7 +6,7 @@ const ErrorResponse = () => {
     function defineResponse(mode = -1){
         const resp_type = ErrorResponseType();
         if(!resp_type[mode])
-            throw `O tipo do erro ${mode} não foi mapeado!`;
+            mode = "inexistent_error"
 
         response = { 
             "message": resp_type[mode],
