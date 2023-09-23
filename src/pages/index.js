@@ -23,8 +23,6 @@ function Home() {
     });
 
     return (
-        <>
-
         <div className={style.centered_content}>           
             <ul id={style.content_list}>
                 <p>{fetch_error}</p>
@@ -32,7 +30,6 @@ function Home() {
                 <ProfileBar/>
             </ul>
         </div>
-        </>
     );
 
 }
