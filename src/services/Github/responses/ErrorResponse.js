@@ -1,4 +1,4 @@
-import ErrorResponseType from "./ErrorResponseType";
+import ErrorResponseType from "./ResponseType";
 
 const ErrorResponse = () => {
     var response = {};
