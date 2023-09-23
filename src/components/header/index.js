@@ -34,7 +34,7 @@ function Header() {
                 Prazer, Gustavo, tenho 24 anos e atualmente trabalho no Itaú Unibanco como Engenheiro de Software.<br/>
                 Tentarei contar um pouco da minha tragetória profissional :) <br/>
             </p>
-            <button className={styles.button}>Ok</button>
+            {/*<button className={styles.button}>Ok</button>*/}
         </div>
 
     );
