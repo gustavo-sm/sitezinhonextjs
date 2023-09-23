@@ -1,5 +1,5 @@
 import Messages from "./Messages"; 
-function ResponseType() {
+function ErrorErrorResponseType() {
     return {
         "generic": Messages.ERROR_GENERIC,
         "401": Messages.ERROR_NOT_AUTH,
@@ -8,4 +8,4 @@ function ResponseType() {
     };
 }
 
-export default ResponseType;
+export default ErrorErrorResponseType;

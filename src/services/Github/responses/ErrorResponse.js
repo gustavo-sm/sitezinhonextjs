@@ -1,10 +1,10 @@
-import ResponseType from "./ResponseType";
+import ErrorResponseType from "./ErrorResponseType";
 
 const ErrorResponse = () => {
     var response = {};
     
     function defineResponse(mode = 'Generic'){
-        const resp_type = ResponseType();
+        const resp_type = ErrorResponseType();
 
         if(!resp_type[mode])
             throw `O tipo do erro ${mode} não foi mapeado!`;
