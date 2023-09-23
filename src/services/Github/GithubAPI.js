@@ -8,16 +8,15 @@ const OctoRequest = () => {
     }
     
     async function GETRequest(endpoint = '', payload = {}) {
-        const error_resp = ErrorResponse();
         try {
-            if(!endpoint){
-                error_resp.defineResponse('endpoint_not_defined');
-                return error_resp.getResponse();
+            if(!endpoint){  
+                throw {status: 400};
             }
-
             return await octokit.request(`GET ${endpoint}`, payload);
+
         } catch(err) {
-            error_resp.defineResponse(`${err.status}`);
+            const error_resp = ErrorResponse();
+            error_resp.defineResponse(err.status);
             return error_resp.getResponse();
         }
     }

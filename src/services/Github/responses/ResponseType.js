@@ -1,10 +1,10 @@
 import Messages from "./Messages"; 
 function ErrorErrorResponseType() {
     return {
-        "generic": Messages.ERROR_GENERIC,
+        "-1": Messages.ERROR_GENERIC,
         "401": Messages.ERROR_NOT_AUTH,
         "404":Messages.ERROR_NOT_FOUND,
-        "endpoint_not_defined": Messages.ERROR_ENDPOINT_NOT_DEFINED
+        "400": Messages.ERROR_BAD_REQUEST
     };
 }
 
