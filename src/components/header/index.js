@@ -32,7 +32,7 @@ function Header() {
             <h1 className={styles.heading}>{greeting} </h1>
             <p className={styles.parag}> 
                 Prazer, Gustavo, tenho 24 anos e atualmente trabalho no Itaú Unibanco como Engenheiro de Software.<br/>
-                Tentarei contar um pouco da minha tragetória profissional :) <br/>
+                Vou contar um pouco da minha tragetória profissional :) <br/>
             </p>
             {/*<button className={styles.button}>Ok</button>*/}
         </div>
