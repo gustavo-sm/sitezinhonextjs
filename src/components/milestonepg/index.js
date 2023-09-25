@@ -34,7 +34,7 @@ function MilestonePG(props) {
                 </a>
             </p>
             <ProgressBar id={style.wrapper} completed={percentage}/>
-            <p className={style.text}>{closed_issues}/{open_issues}</p>
+            <p style = {{float:'right'}}className={style.text}>{closed_issues}/{open_issues}</p>
         </div>
 
 
