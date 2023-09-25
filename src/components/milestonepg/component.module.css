@@ -1,0 +1,14 @@
+#wrapper {
+    font-family: "Oxygen";
+}
+.text {
+    font-family: "Oxygen";
+    color: #202124 ;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+}

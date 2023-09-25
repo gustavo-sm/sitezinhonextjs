@@ -1,6 +1,7 @@
 import style from './index.module.css'
 import Header from "../components/header";
 import ProfileBar from '../components/profilebar';
+import MilestonePG from '../components/milestonepg';
 import OctoRequest from "../services/Github/GithubAPI";
 import { useEffect, useState } from "react";
 
@@ -12,12 +13,15 @@ async function getMilestoneData() {
 
 function Home() {
     const [fetch_error, setError] = useState('');
-    //const [success_msg, setMessage] = useState('');
+    const [milestone_data, setMilestoneData] = useState({});
+
 
     useEffect(() => {
         getMilestoneData().then((promise_return) => {
-            if(promise_return.status >= 400 || promise_return.status === -1) 
+            if(promise_return.status >= 400 || promise_return.status === -1)
                 setError(promise_return.message);
+            else
+                setMilestoneData(promise_return.data);
 
         });
     });
@@ -28,6 +32,12 @@ function Home() {
                 <p>{fetch_error}</p>
                 <Header/>
                 <ProfileBar/>
+                <MilestonePG 
+                    open = {milestone_data.open_issues} 
+                    closed = {milestone_data.closed_issues} 
+                    title = {milestone_data.title} 
+                    link = {milestone_data.html_url}/>
+
             </ul>
         </div>
     );
