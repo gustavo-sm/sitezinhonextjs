@@ -26,6 +26,7 @@
   "homepage": "https://github.com/gustavo-sm/sitezinhonextjs#readme",
   "dependencies": {
     "@octokit/core": "^5.0.0",
+    "@ramonak/react-progress-bar": "^5.0.3",
     "next": "^13.2.4",
     "octokit": "^3.1.0",
     "react": "^18.2.0",
