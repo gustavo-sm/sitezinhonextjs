@@ -14,7 +14,7 @@ function getGreeting(){
         case hour_now > 12 && hour_now <= 18:
             greeting = "Boa tarde!";
             break;
-        case hour_now > 18 && hour_now <= 0:
+        case hour_now > 18 && hour_now <= 24:
             greeting = "Boa noite!";
             break;
     }
