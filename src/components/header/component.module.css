@@ -6,8 +6,16 @@
   font-family: "Oxygen";
   color: #202124  ;
   font-weight: lighter;
+  font-size: 25px;
+}
+
+.parag_small {
+  font-family: "Oxygen";
+  color: #202124  ;
+  font-weight: lighter;
   font-size: 20px;
 }
+
 .button {
   background-color: #4CAF50;
   border: none;
