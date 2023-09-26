@@ -10,8 +10,7 @@ function Home() {
             <ul id={style.content_list}>
                 <Header/>
                 <ProfileBar/> 
-                <MilestonePG milestone_id={2}/>
-
+                <MilestonePG milestone_id={1}/>
             </ul>
         </div>
     );
