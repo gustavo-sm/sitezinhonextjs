@@ -31,7 +31,7 @@ function Header() {
         <div>
             <p className={styles.parag}>
                 {greeting} <br/> 
-                <p className={styles.parag_bold}>Prazer, Gustavo Mashiba</p>
+                <span className={styles.parag_bold}>Prazer, Gustavo Mashiba</span>
             </p>
             <p className={styles.parag_small}>
                 Bem-vindo ao meu site, tenho 24 anos e atualmente trabalho no Itaú Unibanco como Engenheiro de Software.<br/>
