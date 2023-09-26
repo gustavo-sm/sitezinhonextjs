@@ -1,4 +1,4 @@
-import "../public/styles.css"
+import "../assets/styles.css"
 import Home from ".";
 
 
