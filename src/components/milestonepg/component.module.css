@@ -8,6 +8,13 @@
     font-size: 17px;
 }
 
+.error {
+    font-family: "Oxygen";
+    color: #FF0000 ;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
 .link {
     text-decoration: none;
     cursor: pointer;

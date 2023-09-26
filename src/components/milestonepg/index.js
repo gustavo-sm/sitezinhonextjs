@@ -23,11 +23,12 @@ function MilestonePG(props) {
         const fetchData = async () => {
             const promise_return = await getMilestoneData(props.milestone_id);
             console.log(promise_return.data);
-            if (promise_return.error)
+            if (promise_return.error){
                 setFetchError(promise_return.message);
+                return;
+            }
 
-            else
-                setMilestoneData(promise_return.data);
+            setMilestoneData(promise_return.data);
 
             calcPercentage(promise_return.data.open_issues, promise_return.data.closed_issues);
 
@@ -51,7 +52,7 @@ function MilestonePG(props) {
                     {milestone_data.closed_issues}/{milestone_data.open_issues + milestone_data.closed_issues}
                 </p>
                 </>
-                : <p>Erro na request da Milestone: {fetch_error}</p>
+                : <p className={style.error}>Erro na request da Milestone: {fetch_error}</p>
             }
         </div>
 
