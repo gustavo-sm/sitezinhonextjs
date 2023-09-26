@@ -10,7 +10,7 @@ const ErrorResponse = () => {
 
         response = { 
             "message": resp_type[mode],
-            "status": mode
+            "error": true
         }
     }
 

@@ -19,8 +19,10 @@ function Home() {
     useEffect(() => {
         const fetchData = async () => {
             const promise_return = await getMilestoneData();
-            if(promise_return.status >= 400 || promise_return.status === -1)
+
+            if(promise_return.error)
                 setError(promise_return.message);
+
             else
                 setMilestoneData(promise_return.data);
         }
@@ -30,14 +32,17 @@ function Home() {
     return (
         <div className={style.centered_content}>           
             <ul id={style.content_list}>
-                <p>{fetch_error}</p>
                 <Header/>
-                <ProfileBar/>
-                <MilestonePG 
+                <ProfileBar/> 
+                {!fetch_error ?
+                    <MilestonePG 
                     open = {milestone_data.open_issues} 
                     closed = {milestone_data.closed_issues} 
                     title = {milestone_data.title} 
                     link = {milestone_data.html_url}/>
+                : <p>Erro na request da milestone: {fetch_error}</p>
+                }
+
 
             </ul>
         </div>
