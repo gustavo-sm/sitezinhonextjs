@@ -43,7 +43,7 @@ function MilestonePG(props) {
                 <>
                 <p className={style.text}>
                     Progresso da Milestone:&nbsp;
-                    <a className={style.link} href='' target='_blank'>
+                    <a className={style.link} href={milestone_data.html_url} target='_blank'>
                         {milestone_data.title}
                     </a>
                 </p>
