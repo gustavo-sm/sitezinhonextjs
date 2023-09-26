@@ -9,11 +9,15 @@
   font-size: 25px;
 }
 
+.parag_bold {
+  font-weight: bold;
+}
+
 .parag_small {
   font-family: "Oxygen";
   color: #202124  ;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .button {

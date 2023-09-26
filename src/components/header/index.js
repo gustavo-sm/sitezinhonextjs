@@ -29,7 +29,10 @@ function Header() {
 
     return (
         <div>
-            <p className={styles.parag}>{greeting}<br/> Prazer, Gustavo Mashiba</p>
+            <p className={styles.parag}>
+                {greeting} <br/> 
+                <p className={styles.parag_bold}>Prazer, Gustavo Mashiba</p>
+            </p>
             <p className={styles.parag_small}>
                 Bem-vindo ao meu site, tenho 24 anos e atualmente trabalho no Itaú Unibanco como Engenheiro de Software.<br/>
                 Vou usar esse espaço para contar um pouco da minha tragetória profissional :) <br/>
