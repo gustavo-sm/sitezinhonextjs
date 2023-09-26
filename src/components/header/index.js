@@ -31,8 +31,8 @@ function Header() {
         <div>
             <p className={styles.parag}>{greeting}<br/> Prazer, Gustavo Mashiba</p>
             <p className={styles.parag_small}>
-                Tenho 24 anos e atualmente trabalho no Itaú Unibanco como Engenheiro de Software.<br/>
-                Vou contar um pouco da minha tragetória profissional :) <br/>
+                Bem-vindo ao meu site, tenho 24 anos e atualmente trabalho no Itaú Unibanco como Engenheiro de Software.<br/>
+                Vou usar esse espaço para contar um pouco da minha tragetória profissional :) <br/>
             </p>
             {/*<button className={styles.button}>Ok</button>*/}
         </div>
