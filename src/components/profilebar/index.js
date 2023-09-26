@@ -10,7 +10,7 @@ function ProfileBar() {
                     <BiLogoLinkedin size={30}/>
                 </a>
                 <a id={styles.github_icon} className={styles.icons_spacing} href="https://github.com/gustavo-sm/" target="_blank">
-                    <BiLogoGithub size={30}/>
+                    <BiLogoGithub id={styles.svg_github} size={30}/>
                 </a>
             </div>
         </div>

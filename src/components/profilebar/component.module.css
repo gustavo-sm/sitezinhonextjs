@@ -14,20 +14,26 @@
     color: #333;
     text-decoration: none;
 }
+
+#svg_github{
+    background-color: #fff;
+    border-radius: 50px;
+}
+
 .icons_spacing {
     padding: 12px 0 0 10px;
 }
 
 .parag {
     font-family: "Oxygen";
-    color: #202124  ;
+    color: #fff  ;
     font-weight: lighter;
     font-size: 20px;
 }
 
 .parag_smaller {
     font-family: "Oxygen";
-    color: #202124  ;
+    color: #fff  ;
     font-weight: lighter;
     font-size: 17px;
 }
