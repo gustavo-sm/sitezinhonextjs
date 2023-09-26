@@ -17,14 +17,15 @@ function Home() {
 
 
     useEffect(() => {
-        getMilestoneData().then((promise_return) => {
+        const fetchData = async () => {
+            const promise_return = await getMilestoneData();
             if(promise_return.status >= 400 || promise_return.status === -1)
                 setError(promise_return.message);
             else
                 setMilestoneData(promise_return.data);
-
-        });
-    });
+        }
+        fetchData();
+    }, [setMilestoneData, setError]);
 
     return (
         <div className={style.centered_content}>           
