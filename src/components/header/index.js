@@ -5,8 +5,8 @@ function getGreeting(){
     const hour_now = new Date().getHours();
     let greeting = '';
     switch(true) {
-        case hour_now > 0 && hour_now <= 6:
-            greeting = "Bem cedo, não? hahaha. Bom dia!"
+        case hour_now >= 0 && hour_now <= 6:
+            greeting = "Bem cedo, não xD? Bom vamos la"
             break;
         case hour_now > 6 && hour_now <= 12:
             greeting = "Bom dia!";
