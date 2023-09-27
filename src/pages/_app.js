@@ -1,11 +1,6 @@
-import "../assets/styles.css"
 import Home from ".";
+import "../static/styles/global.css"
 
-
-function App() {
-    return(
-        <Home/>
-    )
+export default function App() {
+    return <Home/>
 }
-
-export default App;
