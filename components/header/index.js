@@ -35,7 +35,7 @@ function Header() {
                 <Image alt="logo" src="/logo_site.png" width={100} height={100}/>
                 <p className={styles.parag}>
                     {greeting} <br/> 
-                    <span className={styles.parag_bold}>Prazer, Gustavo Mashiba</span>
+                    <span className={styles.parag_bold}>Prazer, Gustavo</span>
                 </p>
             </div>
 
