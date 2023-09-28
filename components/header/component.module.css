@@ -2,8 +2,6 @@
   display: flex;
 }
 .parag {
-  font-family: "Oxygen";
-  color: #fff  ;
   font-weight: lighter;
   font-size: 25px;
 }
@@ -15,8 +13,6 @@
 }
 
 .parag_small {
-  font-family: "Oxygen";
-  color: #fff  ;
   font-weight: lighter;
   font-size: 18px;
 }
