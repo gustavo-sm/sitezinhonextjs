@@ -1,6 +1,6 @@
 ## sitezinhonextjs
 
-Site pessoal desenvolvido com Nextjs.
+Site pessoal desenvolvido com Nextjs.  
 Hospedado originalmente em: https://gustavo-sm.com
 
 Como rodar o projeto localmente:
