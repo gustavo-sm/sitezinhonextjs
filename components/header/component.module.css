@@ -1,6 +1,5 @@
-.heading {
-    font-family: "Oxygen";
-    /*font-weight: bold;*/
+#greeting_wrapper {
+  display: flex;
 }
 .parag {
   font-family: "Oxygen";
