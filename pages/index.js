@@ -10,7 +10,7 @@ function Home() {
             <ul>
                 <Header/>
                 <ProfileBar/> 
-                <MilestonePG milestone_id={1}/>
+                {{ /* <MilestonePG milestone_id={1}/> */ }}
             </ul>
         </div>
     );
